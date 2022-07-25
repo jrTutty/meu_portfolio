@@ -153,7 +153,7 @@ img
 {
     height: calc(100vh - 100px);
     background-color: #333;
-    background-image: url('..//media/tecnologia-binários-Frases-sobre-Tecnologia-e-Inovação-matrix-1024x683.jpg');
+    background-image: url('./media/tecnologia-binários-Frases-sobre-Tecnologia-e-Inovação-matrix-1024x683.jpg');
     background-size: cover;
     background-position: bottom;
     overflow: hidden;
@@ -448,7 +448,7 @@ CSS de áreas especificas
 
 .bg-team
 {
-    background-image: url('../Images/bg.jpg');
+    background-image: url('./media/bg.jpg');
     background-size: cover;
     background-position: center;
     padding: 0;
