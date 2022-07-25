@@ -1,3 +1,5 @@
+//Scrool dos menus à pagina
+
 const menuItens = document.querySelectorAll(".menu a");
 
 menuItens.forEach(item => {
@@ -34,3 +36,18 @@ function typeWriter(elemento)
 
 const titulo = document.querySelector('.slidearea h1');
 typeWriter(titulo)
+
+
+
+// Funcionalidade ao botão do menu para mobile
+
+const btnMobile = document.getElementById('btn-mobile');
+
+function toggleMenu() 
+{
+    const menu = document.getElementById('menu');
+    menu.classList.toggle('active');
+}
+
+btnMobile.addEventListener('click', toggleMenu);
+
